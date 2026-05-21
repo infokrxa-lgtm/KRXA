@@ -1,0 +1,16 @@
+{
+  "system": "KRXA",
+  "build": "v3_CANON",
+  "role": "canonical_local_root",
+  "merged_from": ["KRXA_LOCAL_BUILD_v1", "KRXA_LOCAL_BUILD_EXEC_v2"],
+  "active_root": true,
+  "archive_roots": ["v1", "v2"],
+  "principle": "local_pc_build_first_storage_upload_later",
+  "entry_points": [
+    "run_krxa.py",
+    "KRXA_RUN.bat",
+    "KRXA_RUN_M2M.bat",
+    "KRXA_RESET.bat"
+  ],
+  "required_dirs": ["core", "samples/m2m/user", "samples/m2m/dev", "samples/m2m/verify", "scripts", "build"]
+}
